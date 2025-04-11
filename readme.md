@@ -1,4 +1,4 @@
-# Javascipt Sonarqube testing
+# JS with Sonar Cloud
 
 Testing purpose.
 
