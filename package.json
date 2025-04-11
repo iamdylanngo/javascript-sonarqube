@@ -1,0 +1,22 @@
+{
+  "name": "javascript-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --detectOpenHandles --forceExit",
+    "test:coverage": "jest --watchAll --detectOpenHandles --forceExit --coverage",
+    "test:coverage:html": "jest --watchAll --detectOpenHandles --forceExit --coverage --coverageReporters=html",
+    "test:coverage:lcov": "jest --watchAll --detectOpenHandles --forceExit --coverage --coverageReporters=lcov",
+    "test:coverage:json": "jest --watchAll --detectOpenHandles --forceExit --coverage --coverageReporters=json",
+    "test:coverage:clover": "jest --watchAll --detectOpenHandles --forceExit --coverage --coverageReporters=clover",
+    "test:coverage:text": "jest --watchAll --detectOpenHandles --forceExit --coverage --coverageReporters=text",
+    "test:coverage:text-summary": "jest --watchAll --detectOpenHandles --forceExit --coverage --coverageReporters=text-summary",
+    "test:coverage:json-summary": "jest --watchAll --detectOpenHandles --forceExit --coverage --coverageReporters=json-summary"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
