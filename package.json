@@ -6,7 +6,7 @@
     "test": "jest --watchAll --detectOpenHandles --forceExit",
     "test:coverage": "jest --watchAll --detectOpenHandles --forceExit --coverage",
     "test:coverage:html": "jest --watchAll --detectOpenHandles --forceExit --coverage --coverageReporters=html",
-    "test:coverage:lcov": "jest --watchAll --detectOpenHandles --forceExit --coverage --coverageReporters=lcov",
+    "test:coverage:lcov": "jest --coverage --coverageReporters=lcov",
     "test:coverage:json": "jest --watchAll --detectOpenHandles --forceExit --coverage --coverageReporters=json",
     "test:coverage:clover": "jest --watchAll --detectOpenHandles --forceExit --coverage --coverageReporters=clover",
     "test:coverage:text": "jest --watchAll --detectOpenHandles --forceExit --coverage --coverageReporters=text",
