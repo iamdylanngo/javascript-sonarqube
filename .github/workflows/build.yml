@@ -16,7 +16,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Test and coverage
-        run: npm run test:coverage:clover
+        run: npm run test:coverage:lcov
       - name: SonarQube Scan
         uses: SonarSource/sonarqube-scan-action@v4
         env:
