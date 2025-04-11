@@ -13,9 +13,9 @@
     "test:coverage:text-summary": "jest --watchAll --detectOpenHandles --forceExit --coverage --coverageReporters=text-summary",
     "test:coverage:json-summary": "jest --watchAll --detectOpenHandles --forceExit --coverage --coverageReporters=json-summary"
   },
-  "author": "",
+  "author": "Dylan",
   "license": "ISC",
-  "description": "",
+  "description": "Test Sonarqube with Jest",
   "devDependencies": {
     "jest": "^29.7.0"
   }
